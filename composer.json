@@ -1,6 +1,6 @@
 {
-  "name": "asumranphan/wordpress-plugin-starter-kit",
-  "description": "A WordPress Plugin Starter Kit for creating the WordPress Plugin.",
+  "name": "asumranphan/wordpress-sentry-plugin",
+  "description": "A Wordpress Plugin send php errors to the Sentry errors reporting system.",
   "type": "wordpress-plugin",
   "license": "GPL-3.0",
   "authors": [{

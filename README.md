@@ -1,3 +1,3 @@
-# WordPress Plugin Starter Kit
+# WordPress Sentry Plugin
 
-A WordPress Plugin Starter Kit for creating the WordPress Plugin.
+A Wordpress Plugin send php errors to the Sentry errors reporting system.
