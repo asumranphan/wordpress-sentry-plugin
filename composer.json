@@ -1,25 +1,23 @@
 {
-	"name": "asumranphan/wordpress-plugin-starter-kit",
-	"description": "A WordPress Plugin Starter Kit for creating the WordPress Plugin.",
-	"type": "wordpress-plugin",
-	"license": "GPL-3.0",
-	"authors": [
-		{
-			"name": "Anurak Sumranphan",
-			"email": "a.sumranphan@gmail.com"
-		}
-	],
-	"require": {
-		"php": "^5.6"
-	},
-	"require-dev": {
-		"squizlabs/php_codesniffer": "^2.8",
-		"wp-coding-standards/wpcs": "^0.11.0"
-	},
-	"scripts": {
-		"phpcs": [
-			"./vendor/bin/phpcs --config-set installed_paths vendor/wp-coding-standards/wpcs",
-			"./vendor/bin/phpcs -i"
-		]
-	}
+  "name": "asumranphan/wordpress-plugin-starter-kit",
+  "description": "A WordPress Plugin Starter Kit for creating the WordPress Plugin.",
+  "type": "wordpress-plugin",
+  "license": "GPL-3.0",
+  "authors": [{
+    "name": "Anurak Sumranphan",
+    "email": "a.sumranphan@gmail.com"
+  }],
+  "require": {
+    "php": "^5.6"
+  },
+  "require-dev": {
+    "squizlabs/php_codesniffer": "^2.8",
+    "wp-coding-standards/wpcs": "^0.11.0"
+  },
+  "scripts": {
+    "phpcs": [
+      "./vendor/bin/phpcs --config-set installed_paths vendor/wp-coding-standards/wpcs",
+      "./vendor/bin/phpcs -i"
+    ]
+  }
 }
