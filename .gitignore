@@ -1,0 +1,6 @@
+# Exclude default
+.DS_Store
+
+# Exclude composer
+vendor/
+composer.lock

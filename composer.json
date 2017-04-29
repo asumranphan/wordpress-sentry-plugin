@@ -1,0 +1,15 @@
+{
+	"name": "asumranphan/wordpress-plugin-starter-kit",
+	"description": "A WordPress Plugin Starter Kit for creating the WordPress Plugin.",
+	"type": "wordpress-plugin",
+	"license": "GPL-3.0",
+	"authors": [
+		{
+			"name": "Anurak Sumranphan",
+			"email": "a.sumranphan@gmail.com"
+		}
+	],
+	"require": {
+		"php": "^5.6"
+	}
+}
