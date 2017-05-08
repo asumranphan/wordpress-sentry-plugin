@@ -16,6 +16,7 @@ define( 'WSP_BASENAME', plugin_basename( dirname( __FILE__ ) ) );
 
 // Put your code here.
 delete_option( WSP_BASENAME . '-version' );
+delete_option( WSP_BASENAME . '-client-keys-dsn' );
 
 // Clear any cached data.
 wp_cache_flush();
