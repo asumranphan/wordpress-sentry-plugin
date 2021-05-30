@@ -9,7 +9,7 @@
  */
 
 if ( ! defined( 'WP_UNINSTALL_PLUGIN' ) ) {
-	exit;
+    exit;
 }
 
 define( 'WSP_BASENAME', plugin_basename( dirname( __FILE__ ) ) );
